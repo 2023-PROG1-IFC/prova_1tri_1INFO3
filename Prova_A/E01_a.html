@@ -7,11 +7,13 @@
     */
 
     //ENTRADA
-
+    const notaTrimestre1 = Number(prompt("Qual a nota do 1º trimestre?"));
+    const notaTrimestre2 = Number(prompt("Qual a nota do 2º trimestre?"));
+    const notaTrimestre3 = Number(prompt("Qual a nota do 3º trimestre?"));
 
     //PROCESSAMENTO
-
+    const media = (notaTrimestre1 + notaTrimestre2 + notaTrimestre3) / 3;
 
     //SAÍDA
-
+    alert(`A média do aluno é ${media.toFixed(2)}`);
 </script>

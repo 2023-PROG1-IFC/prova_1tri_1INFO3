@@ -7,11 +7,11 @@
     */
 
     //ENTRADA
-
+    const quantiaInvestida = Number(prompt("Qual será a quantia investida?").trim().replace(",", "."));
 
     //PROCESSAMENTO
-
+    const valorFinal = quantiaInvestida + (quantiaInvestida * 0.098);
 
     //SAÍDA
-
+    alert(`O valor final será R$ ${valorFinal.toFixed(2).replace(".", ",")}`);
 </script>
