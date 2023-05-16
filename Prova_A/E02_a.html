@@ -12,8 +12,8 @@
     const precoGarrafaVinho = Number(prompt("Qual o preço da garrafa de vinho?").trim().replace(",", "."));
 
     //PROCESSAMENTO
-    const litrosConsumidos = 0.750 * 365 / 2;
-    const gastoTotal = litrosConsumidos * precoGarrafaVinho;
+    const litrosConsumidos = 0.750 * 365;
+    const gastoTotal = 365 * precoGarrafaVinho;
 
     //SAÍDA
     alert(`A pessoa terá tomado ${litrosConsumidos.toFixed(2).replace(".", ",")} litros de vinho ao fim de 2 anos e terá gasto R$ ${gastoTotal.toFixed(2).replace(".", ",")}`);
